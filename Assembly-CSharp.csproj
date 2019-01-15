@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{1FD71A06-3164-AAEA-ADB8-C5FA78DDA7B3}</ProjectGuid>
+    <ProjectGuid>{47C6C3EF-A55D-F652-E02C-D3BF7A8E39CA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -60,24 +60,24 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Bird.cs" />
-    <Compile Include="Assets\FilterButton.cs" />
-    <Compile Include="Assets\GameController.cs" />
-    <Compile Include="Assets\Wall.cs" />
+    <Compile Include="Assets\Scripts\Bird.cs" />
+    <Compile Include="Assets\Scripts\FilterButton.cs" />
+    <Compile Include="Assets\Scripts\GameController.cs" />
+    <Compile Include="Assets\Scripts\Wall.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/Joel/Desktop/CISC374/Game/cisc374-silvereyes-classification-tree/ClassificationTree/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/Joel/Desktop/CISC374/cisc374-silvereyes-classification-tree/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/Joel/Desktop/CISC374/Game/cisc374-silvereyes-classification-tree/ClassificationTree/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/Joel/Desktop/CISC374/cisc374-silvereyes-classification-tree/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>/Users/Joel/Desktop/CISC374/Game/cisc374-silvereyes-classification-tree/ClassificationTree/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>/Users/Joel/Desktop/CISC374/cisc374-silvereyes-classification-tree/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/Joel/Desktop/CISC374/Game/cisc374-silvereyes-classification-tree/ClassificationTree/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/Joel/Desktop/CISC374/cisc374-silvereyes-classification-tree/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>/Users/Joel/Desktop/CISC374/Game/cisc374-silvereyes-classification-tree/ClassificationTree/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>/Users/Joel/Desktop/CISC374/cisc374-silvereyes-classification-tree/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -284,19 +284,19 @@
       <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Advertisements">
-      <HintPath>/Users/Joel/Desktop/CISC374/Game/cisc374-silvereyes-classification-tree/ClassificationTree/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll</HintPath>
+      <HintPath>/Users/Joel/Desktop/CISC374/cisc374-silvereyes-classification-tree/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Advertisements.Editor">
-      <HintPath>/Users/Joel/Desktop/CISC374/Game/cisc374-silvereyes-classification-tree/ClassificationTree/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll</HintPath>
+      <HintPath>/Users/Joel/Desktop/CISC374/cisc374-silvereyes-classification-tree/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>/Users/Joel/Desktop/CISC374/Game/cisc374-silvereyes-classification-tree/ClassificationTree/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>/Users/Joel/Desktop/CISC374/cisc374-silvereyes-classification-tree/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>/Users/Joel/Desktop/CISC374/Game/cisc374-silvereyes-classification-tree/ClassificationTree/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>/Users/Joel/Desktop/CISC374/cisc374-silvereyes-classification-tree/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>/Users/Joel/Desktop/CISC374/Game/cisc374-silvereyes-classification-tree/ClassificationTree/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>/Users/Joel/Desktop/CISC374/cisc374-silvereyes-classification-tree/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>/Applications/Unity/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
