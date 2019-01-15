@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
     public static GameController instance;
     public int birdPoolSize = 5;
     public GameObject birdPrefab;
-    public Button button1, button2, button3;
+    public Button button1, button2, button3, button4;
 
     private GameObject[] birds;
     private Vector2 objectPoolPosition = new Vector2(0, 5);
@@ -37,6 +38,7 @@ public class GameController : MonoBehaviour
         button1.onClick.AddListener(OnClickColor);
         button2.onClick.AddListener(OnClickHeight);
         button3.onClick.AddListener(OnClickFlight);
+        button4.onClick.AddListener(OnClickRestart);
     }
 
     void OnClickHeight()
@@ -80,7 +82,12 @@ public class GameController : MonoBehaviour
         }
     }
 
-    void TaskWithParameters(string message)
+    void OnClickRestart()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+        void TaskWithParameters(string message)
     {
         //Output this to console when the Button2 is clicked
         Debug.Log(message);
